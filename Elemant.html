@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Elements</title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background: #e7b4ce;
+            padding: 20px;
+            margin: 0;
+        }
+       .container {
+            max-width: 600px;
+            margin: 0 ;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(173, 41, 41, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #9c1e9c;
+            margin-bottom: 10px;
+        }
+       .subtitle {
+            text-align: center;
+            color: #534c4a;
+            margin-bottom: 30px;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 3px solid rgb(77, 74, 74);
+            min-width: 500px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            font-size: 16px;
+        }
+        th {
+            border-bottom: 3px solid black;
+            font-weight: bold;
+            background: #981db1;
+            color: rgb(41, 36, 36);
+        }
+
+        /* Colors */
+       .atomic-no { color: black; font-weight: bold; }
+       .name { color: #0033cc; font-weight: bold; }
+       .symbol { color: #228b22; font-weight: bold; font-size: 18px; }
+       .mass { color: #d81b60; font-weight: bold; }
+h2{
+    color: #0033cc;
+}
+    </style>
+</head>
+<body>
+<center>
+    <div class="container">
+    <h1>The Perodic Table</h1>
+    <div class="table-scroll">
+        <table id="elementsTable">
+            <thead>
+                <tr>
+                    <th>Atomic No</th>
+                    <th>Element Name</th>
+                    <th>Symbol</th>
+                    <th>Atomic Mass</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td class="atomic-no">1</td><td class="name">Hydrogen</td><td class="symbol">H</td><td class="mass">1.008</td></tr>
+                <tr><td class="atomic-no">2</td><td class="name">Helium</td><td class="symbol">He</td><td class="mass">4.003</td></tr>
+                <tr><td class="atomic-no">3</td><td class="name">Lithium</td><td class="symbol">Li</td><td class="mass">6.94</td></tr>
+                <tr><td class="atomic-no">4</td><td class="name">Beryllium</td><td class="symbol">Be</td><td class="mass">9.01</td></tr>
+                <tr><td class="atomic-no">5</td><td class="name">Boron</td><td class="symbol">B</td><td class="mass">10.81</td></tr>
+                <tr><td class="atomic-no">6</td><td class="name">Carbon</td><td class="symbol">C</td><td class="mass">12.01</td></tr>
+                <tr><td class="atomic-no">7</td><td class="name">Nitrogen</td><td class="symbol">N</td><td class="mass">14.01</td></tr>
+                <tr><td class="atomic-no">8</td><td class="name">Oxygen</td><td class="symbol">O</td><td class="mass">16.00</td></tr>
+                <tr><td class="atomic-no">9</td><td class="name">Fluorine</td><td class="symbol">F</td><td class="mass">19.00</td></tr>
+                <tr><td class="atomic-no">10</td><td class="name">Neon</td><td class="symbol">Ne</td><td class="mass">20.18</td></tr>
+                <tr><td class="atomic-no">11</td><td class="name">Sodium</td><td class="symbol">Na</td><td class="mass">22.99</td></tr>
+                <tr><td class="atomic-no">12</td><td class="name">Magnesium</td><td class="symbol">Mg</td><td class="mass">24.31</td></tr>
+                <tr><td class="atomic-no">13</td><td class="name">Aluminium</td><td class="symbol">Al</td><td class="mass">26.98</td></tr>
+                <tr><td class="atomic-no">14</td><td class="name">Silicon</td><td class="symbol">Si</td><td class="mass">28.09</td></tr>
+                <tr><td class="atomic-no">15</td><td class="name">Phosphorus</td><td class="symbol">P</td><td class="mass">30.97</td></tr>
+                <tr><td class="atomic-no">16</td><td class="name">Sulfur</td><td class="symbol">S</td><td class="mass">32.06</td></tr>
+                <tr><td class="atomic-no">17</td><td class="name">Chlorine</td><td class="symbol">Cl</td><td class="mass">35.45</td></tr>
+                <tr><td class="atomic-no">18</td><td class="name">Argon</td><td class="symbol">Ar</td><td class="mass">39.95</td></tr>
+                <tr><td class="atomic-no">19</td><td class="name">Potassium</td><td class="symbol">K</td><td class="mass">39.10</td></tr>
+                <tr><td class="atomic-no">20</td><td class="name">Calcium</td><td class="symbol">Ca</td><td class="mass">40.08</td></tr>
+                <tr><td class="atomic-no">21</td><td class="name">Scandium</td><td class="symbol">Sc</td><td class="mass">44.96</td></tr>
+                <tr><td class="atomic-no">22</td><td class="name">Titanium</td><td class="symbol">Ti</td><td class="mass">47.87</td></tr>
+                <tr><td class="atomic-no">23</td><td class="name">Vanadium</td><td class="symbol">V</td><td class="mass">50.94</td></tr>
+                <tr><td class="atomic-no">24</td><td class="name">Chromium</td><td class="symbol">Cr</td><td class="mass">52.00</td></tr>
+                <tr><td class="atomic-no">25</td><td class="name">Manganese</td><td class="symbol">Mn</td><td class="mass">54.94</td></tr>
+                <tr><td class="atomic-no">26</td><td class="name">Iron</td><td class="symbol">Fe</td><td class="mass">55.85</td></tr>
+                <tr><td class="atomic-no">27</td><td class="name">Cobalt</td><td class="symbol">Co</td><td class="mass">58.93</td></tr>
+                <tr><td class="atomic-no">28</td><td class="name">Nickel</td><td class="symbol">Ni</td><td class="mass">58.69</td></tr>
+                <tr><td class="atomic-no">29</td><td class="name">Copper</td><td class="symbol">Cu</td><td class="mass">63.55</td></tr>
+                <tr><td class="atomic-no">30</td><td class="name">Zinc</td><td class="symbol">Zn</td><td class="mass">65.38</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+   <h2> The Importance of Perodic Table</h2>
+      <h4>
+        <p>
+        The perodic table is a tabular display of all known chemical elemants.
+        It is organized by atomic number and electron configuration . 
+        In chemistry, it is essiential because it helps scientists understand the realationship between elements and perdict how they will react with one another.
+      </p>
+      </h4>
+</center>
+  
+      
+</body>
+</html>
