@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(165, 95, 179);
+
+}
+h1{
+    background-color: rgb(52, 5, 83);
+    color: rgb(107, 179, 228);
+    column-rule: rgb(151, 129, 127);
+}
+h2{
+    background-color: antiquewhite;
+    color: rgb(38, 103, 201);}
